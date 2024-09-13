@@ -13,7 +13,7 @@ function main() {
     } else if (operator=="/") {
         result = divide();
     } 
-    console.log(result)
+        console.log(result)
 }
 function add() {
     return x+y;
@@ -27,5 +27,12 @@ function multiply() {
 function divide() {
     return x/y;
 }
-    
+function square() {
+    return Math.pow()
+}
+function squareRoot() {
+    Math.sqrt()
+}
+
 main() 
+
